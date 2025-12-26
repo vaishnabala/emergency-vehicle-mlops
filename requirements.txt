@@ -1,0 +1,28 @@
+# Core Data Science
+pandas
+numpy
+scikit-learn
+xgboost
+
+# Geospatial
+h3
+folium
+
+# MLOps & Experiment Tracking
+mlflow
+evidently
+
+# API & Web Framework
+fastapi
+uvicorn
+pydantic
+
+# Utilities
+python-dotenv
+joblib
+requests
+
+# Development Tools
+pytest
+black
+ruff

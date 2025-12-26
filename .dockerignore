@@ -1,0 +1,15 @@
+# Ignore unnecessary files
+__pycache__/
+*.py[cod]
+.env
+.git/
+.github/
+notebooks/
+tests/
+data/raw/
+data/processed/
+data/features/
+mlruns/
+mlflow.db
+*.log
+.vscode/

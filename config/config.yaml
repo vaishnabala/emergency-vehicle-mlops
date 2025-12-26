@@ -1,0 +1,28 @@
+# Project Configuration
+
+project:
+  name: Emergency Forecast MLOps
+  version: 0.1.0
+
+data:
+  raw_path: data/raw
+  processed_path: data/processed
+  features_path: data/features
+
+spatial:
+  lat_min: 12.8
+  lat_max: 13.2
+  lon_min: 77.4
+  lon_max: 77.8
+  h3_resolution: 8
+
+model:
+  type: xgboost
+  params:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+
+api:
+  host: 0.0.0.0
+  port: 8000
